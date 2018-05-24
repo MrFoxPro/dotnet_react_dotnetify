@@ -1,0 +1,33 @@
+{
+  "name": "react_template-ts",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "dotnetify": "^3.0.0-pre",
+    "material-ui": "^0.20.1",
+    "react": "^16.4.0",
+    "react-chartjs-2": "^2.7.2",
+    "react-dom": "^16.4.0",
+    "react-scripts-ts": "2.16.0",
+    "file-loader": "0.11.2",
+    "css-loader": "0.28.7",
+    "chart.js": "^2.7.1",
+    "flexboxgrid": "6.3.1",
+    "url-loader": "0.6.2",
+    "style-loader": "0.19.0"
+  },
+  "scripts": {
+    "start": "rimraf ./build && react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom --runInBand --watchAll",
+    "eject": "react-scripts-ts eject"
+  },
+  "devDependencies": {
+    "@types/material-ui": "^0.20.8",
+    "@types/jest": "^22.2.3",
+    "@types/node": "^10.1.2",
+    "@types/react": "^16.3.14",
+    "@types/react-dom": "^16.0.5",
+    "typescript": "^2.8.3"
+  }
+}
